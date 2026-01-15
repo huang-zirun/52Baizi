@@ -1,0 +1,9 @@
+本项目技术栈：Next.js 15, Tailwind, Shadcn, Framer Motion, Postgres, Drizzle ORM, Server Actions, Vercel
+
+本项目命名为52Baizi，是基于以上技术栈（如有用到）实现对于用户输入的生日、出生地点、性别等信息进行八字的计算排盘和流年运势分析
+
+对于用户八字计算，我们采用Github上的开源项目https://github.com/6tail/tyme4ts进行，需要你充分的阅读其文档，并理解使用方式
+
+在进行代码改动前，你需要先阅读.geminirules文件，并理解其内容
+
+在每次进行代码改动后，你需要将我的提示词按轮次输出成文件，放在prompts文件夹下
